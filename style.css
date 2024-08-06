@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+(class"="col-1){
+    float: :left;
+    padding: 15px;
+}
+html{
+    font-family: 'Lucida Sans', sans-serif;
+}
